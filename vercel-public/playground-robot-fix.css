@@ -1,0 +1,20 @@
+.bot-frame img {
+  position: absolute;
+  top: -28px;
+  width: 375px !important;
+  height: auto !important;
+}
+
+.bot-frame.b1 img { transform: translateX(0) !important; }
+.bot-frame.b2 img { transform: translateX(-125px) !important; }
+.bot-frame.b3 img { transform: translateX(-250px) !important; }
+
+@media (max-width: 800px) {
+  .bot-frame img {
+    top: -20px;
+    width: 264px !important;
+  }
+
+  .bot-frame.b2 img { transform: translateX(-88px) !important; }
+  .bot-frame.b3 img { transform: translateX(-176px) !important; }
+}
