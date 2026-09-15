@@ -1,0 +1,35 @@
+.recruiter-hero h1 span,
+.recruiter-hero h1 em {
+  display: block;
+  white-space: nowrap;
+}
+
+.recruiter-hero h1 { line-height: .86; }
+.header-resume { margin-right: 72px; }
+.card .open-case { margin-left: 0; }
+.card .local + .open-case { margin-left: 1rem; }
+
+@media (max-width: 720px) {
+  .recruiter-hero h1 {
+    font-size: 11vw;
+    line-height: .9;
+    letter-spacing: -.045em;
+  }
+
+  .recruiter-hero h1 em {
+    font-size: .58em;
+    margin: .2em 0 .2em 8%;
+  }
+
+  .header-resume {
+    margin-right: 58px;
+    padding: .6rem .7rem;
+  }
+
+  .alt-menu-button {
+    width: 48px !important;
+    height: 48px !important;
+    right: .6rem !important;
+    top: .85rem !important;
+  }
+}
